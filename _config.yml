@@ -6,7 +6,7 @@ description: >
 repository_url: https://github.com/tiycola/
 repository_shorthand: tiycola
 class_github_org: https://github.com/tiycola/
-baseurl: /
+baseurl: https://tiycola.github.io/
 instructor_name: Gray Gunter
 instructor_email: gray.gunter@theironyard.com
 instructor_url: http://graybearllc.com/
