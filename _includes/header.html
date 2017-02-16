@@ -1,0 +1,30 @@
+<header>
+
+  <h1><a href='{{ site.baseurl }}/'>
+    <img class='logo' src="{{ site.baseurl }}/{{ site.class_logo }}" alt="The Iron Yard {{site.project_name}} Logo">
+    <br>
+    {{ site.project_name }}
+  </a></h1>
+  <p>{{ site.description }}</p>
+  <p class='student-name'></p>
+
+  <!-- <p class="view"><a href="{{ site.class_github_org }}">Class Github Organization</a></p> -->
+
+  <nav>
+    <h3>Class Policies</h3>
+    <ul>
+      {% assign sorted_sections = site.sections | sort: 'order' | where:"category","policy" %}
+      {% for policy in sorted_sections %}
+        <li><a href='{{ site.baseurl }}{{policy.url}}'>{{policy.title}}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h3>Prework</h3>
+    <ul>
+      {% assign sorted_sections = site.sections | sort: 'order' | where:"category","prework" %}
+      {% for prework in sorted_sections %}
+        <li><a href='{{ site.baseurl }}{{prework.url}}'>{{prework.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="wrapper">
+
+      {% include header.html %}
+
+      <section class='content' data-section="{{page.title}}" data-category="{{page.category}}">
+
+        {{ content }}
+
+        {% assign next = page.order | plus:1 %}
+        {% assign sorted_sections = site.sections | where:"order",next %}
+        {% if sorted_sections.first and page.category != "static" %}
+          <div class='cta'>
+            <a href='{{site.baseurl}}{{sorted_sections.first.url}}' class='btn'>Next</a>
+          </div>
+        {% endif %}
+
+        {% include footer.html %}
+      </section>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

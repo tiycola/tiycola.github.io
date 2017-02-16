@@ -1,0 +1,18 @@
+title: Backend Engineering Onboarding | The Iron Yard - Washington DC
+project_name: Backend Engineering
+description: >
+  The Iron Yard - Washington DC
+repository_url: https://github.com/tiy-dc-ror-2016-feb/onboarding
+repository_shorthand: tiy-dc-ror-2016-feb/onboarding
+baseurl: /onboarding
+instructor_name: Russell Osborne
+instructor_email: russell@theironyard.com
+instructor_url: https://github.com/rposborne
+cd_name_informal: Su
+cd_name: Su Kim
+cd_email: su@theironyard.com
+prework_survey_1: https://github.com/tiy-dc-ror-2016-feb/onboarding
+prework_survey_2: https://github.com/tiy-dc-ror-2016-feb/onboarding
+collections:
+  prework:
+    output: true

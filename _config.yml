@@ -1,0 +1,19 @@
+title: Frontend Engineering Onboarding | The Iron Yard - Columbia, SC
+project_name: Frontend Engineering
+class_logo: img/fee.png
+description: >
+  The Iron Yard - Columbia, SC
+repository_url: https://github.com/tiycola/fee-onboarding
+repository_shorthand: tiycola/fee-onboarding
+class_github_org: https://github.com/tiycola/
+baseurl: /fee-onboarding
+instructor_name: Gray Gunter
+instructor_email: gray.gunter@theironyard.com
+instructor_url: http://graybearllc.com/
+instructor_photo: http://graygunter.com/ffface6.jpg
+cd_name_informal: Heather
+cd_name: Heather Dughaish
+cd_email: heather@theironyard.com
+collections:
+  sections:
+    output: true
