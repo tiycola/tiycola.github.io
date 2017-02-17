@@ -3,10 +3,10 @@ project_name: Frontend Engineering
 class_logo: img/fee.png
 description: >
   The Iron Yard - Columbia, SC
-repository_url: https://github.com/tiycola/
-repository_shorthand: tiycola
+repository_url: https://github.com/tiycola/tiycola.github.io
+repository_shorthand: tiycola/tiycola.github.io
 class_github_org: https://github.com/tiycola/
-baseurl: https://tiycola.github.io/
+baseurl: /fee-onboarding
 instructor_name: Gray Gunter
 instructor_email: gray.gunter@theironyard.com
 instructor_url: http://graybearllc.com/
