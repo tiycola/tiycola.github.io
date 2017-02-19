@@ -9,7 +9,7 @@ category: static
 {% if site.instructor_photo %}
   <img alt='{{site.instructor_name}}' src='{{site.instructor_photo}}' class='instructor'>
 {% endif %}
-Hello! My name is {{site.instructor_name}} and I will be your {{site.project_name}} instructor.  I hope you are as excited as I am about getting this class started. It is in the best interest of everyone to make sure you as prepared as possible for the coming twelve weeks. Through large amounts of hard work and determination, you will learn, grow, and achieve.
+Hello! My name is {{site.instructor_name}} and I will be your {{site.project_name}} instructor.  I hope you are as excited as I am about getting this class started. It is in the best interest of everyone to make sure you are as prepared as possible for the coming twelve weeks. Through large amounts of hard work and determination, you will learn, grow, and achieve.
 
 Remember, we are all in this together. We will have individual assignments and group assignments. Always be willing and ready to help your peers.
 
